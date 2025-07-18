@@ -1,0 +1,23 @@
+{
+    "build": {
+        "beforeDevCommand": "",
+        "beforeBuildCommand": "",
+        "devPath": "https://example.com",
+        "distDir": "../"
+    },
+    "tauri": {
+        "bundle": {
+            "identifier": "com.milee.ricefield",
+            "icon": [
+                "icons/icon.png"
+            ],
+            "android": {
+                "package": "com.milee.ricefield",
+                "label": "Milee's Rice field \ud83c\udf3e"
+            }
+        },
+        "windows": {
+            "title": "Milee's Rice field \ud83c\udf3e"
+        }
+    }
+}
